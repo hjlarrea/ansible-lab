@@ -28,8 +28,6 @@ ansible-playbook playbooks/web.yml
 
 This repository contains a simple laboratory to practice [Ansible](https://docs.ansible.com/) without needing real servers.  
 It provides a lightweight environment with:
-
-It provides a lightweight environment with:
 	•	1 Ansible control node (your own machine, where you run ansible)
 	•	2 managed nodes (Docker containers reachable via SSH)
 	•	Iniitial playbooks to test connectivity and install a basic service (Nginx). You can build beyond these to practice.
